@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 우리가 프로젝트를 빌드해서 아티펙트(war파일)를 생성할텐데,
+ 이 빌드해주는 도구로는 maven, gradle이 있다.(이전세대에는 make, ant).
+우리는 build tool로 maven을 사용할 것이다.
+
+바로 이 pom.xml이라는 파일이 -> maven이 빌드할 때 필요한 정보를 담고 있는 maven설정파일이다.
+ -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
