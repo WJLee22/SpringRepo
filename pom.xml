@@ -10,6 +10,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!--사람도 식별하기위해서 이름,학번, 성별등등 있듯이,
+     이 프로젝트도 식별하기 위한 정보가 필요하다.
+    주요 식별자로는 groupId, artifactId, version이 있다.
+    packaging: 이 프로젝트가 어떤 형태로 빌드될 것인지에 대한 정보이다.war파일로 빌드할 것이다.
+    스프링부트에서는 일반적으로 jar파일로 빌드하지만, 스프링부트가 아닌 스프링에서는 war파일로 빌드하는 경우가 많다.
+    -->
     <groupId>kr.ac.hansung</groupId>
     <artifactId>helloSpring</artifactId>
     <version>1.0-SNAPSHOT</version>
